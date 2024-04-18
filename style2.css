@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    font-family: "Ubuntu", sans-serif;
+    background-color: #1CB5E0;
+    
+  }
+  
+  .topnav {
+    
+    background-color: #000046;
+    height: 100%;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #7b71e9f9;
+    
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .navigacija{
+    height: 45px;
+    width: 100%;
+    background-color: #070555f1;
+  }
+div {
+  height: auto;
+  width: 60%;
+  margin: 0 auto 0;
+  
+}
+ul{
+    list-style: none;
+}
+
+.slike{
+    display: grid;
+    gap:1rem;
+    grid-template-columns: repeat(5,1fr);
+}
+
+.slike img{
+    aspect-ratio: 16/9;
+    object-fit: cover;
+}
+img{
+    max-width: 100%;
+    display: block;
+    height: 180px;
+    width: 320px;
+}
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: DarkSalmon;
+    color: white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    
+}
+h1{
+    text-align: center;
+  }
